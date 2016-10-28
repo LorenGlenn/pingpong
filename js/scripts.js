@@ -13,7 +13,7 @@ var pingPong = function(userNumber) {
       }
     }
   } else {
-    alert('please enter a positive number!')
+    alert('please enter a positive number!');
   }
 
   var answerString = countToArray.join(", ");
