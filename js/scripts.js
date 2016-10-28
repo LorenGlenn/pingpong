@@ -14,7 +14,7 @@ var pingPong = function(userNumber) {
       }
     }
   } else {
-    alert('please enter a positive number!');
+    alert('please enter a positive integer!');
   }
   var answerString = countToArray.join(", ");
   return answerString;

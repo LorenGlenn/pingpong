@@ -4,6 +4,9 @@ body {
 
 ol {
   display: inline-block;
+  text-align: left;
+  font-size: 14pt;
+  border: 2px dashed black;
 }
 
 #header {
@@ -52,4 +55,9 @@ ol {
 
 #landing p {
     font-size: 30pt;
+}
+
+#header-text p {
+  padding: 10px;
+  font-size: 18pt;
 }
