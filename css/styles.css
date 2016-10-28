@@ -6,6 +6,23 @@
   display: none;
 }
 
+#header {
+  margin-top: 5%;
+  background-color: #aabd6d;
+}
+
 #form-div{
-  margin-top: 10%;
+  margin-top: 5%;
+  background-color: #588ccd;
+  font-size: 20pt;
+}
+
+#answer-section {
+  font-size: 14pt;
+  margin-top: 5%;
+  background-color: #eec587;
+}
+
+ol {
+  display: inline-block;
 }
