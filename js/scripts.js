@@ -24,8 +24,17 @@ $(document).ready(function(){
   $('form#ping-pong').submit(function(event){
     var userNumber = parseInt($('#user-input').val());
     var result = pingPong(userNumber);
+    answerAnimation();
     $('#answer').text(result);
-    $('#answer-section').show();
+    // $('#answer-section').show();
     event.preventDefault();
   });
+
+  var answerAnimation = function() {
+    $("#answer-section").animate({
+      height: '60%',
+      width: '100%'
+    });
+    $('#announce').show();
+  }
 });

@@ -9,8 +9,8 @@
     <title>Ping-Pong</title>
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="well" id="header">
+    <div class="well" id="header">
+      <div id="header-text">
         <h1>Enter a number for the PingPong game!</h1>
         <h3>Rules:</h3>
         <ol>
@@ -19,18 +19,18 @@
           <li>Every multiple of 15 will be replaced with pingpong.</li>
         </ol>
       </div>
-      <form id="ping-pong">
-        <div class="form-group well" id="form-div">
-          <label for="user-input">Insert a number to count to:</label>
-          <input type="text" name="user-input" id="user-input">
-          <button type="submit" id="submit" class="btn btn-info">Submit</button>
-        </div>
-
-      </form>
-      <div>
-        <div id="answer-section" class="well">
-          <p id="answer"></p>
-        </div>
+    </div>
+    <form id="ping-pong">
+      <div class="form-group well" id="form-div">
+        <label for="user-input">Insert a number to count to:</label>
+        <input type="text" name="user-input" id="user-input">
+        <button type="submit" id="submit" class="btn btn-info">Submit</button>
+      </div>
+    </form>
+    <div>
+      <div id="answer-section" class="well">
+        <h3 id="announce">Here is your ping ponged number: </h3>
+        <p id="answer"></p>
       </div>
     </div>
   </body>

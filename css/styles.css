@@ -1,26 +1,33 @@
-.container-fluid {
+body {
   text-align: center;
-}
-
-#answer-section {
-  display: none;
 }
 
 #header {
   margin-top: 5%;
   background-color: #aabd6d;
+  color: #4d4d4d;
 }
 
 #form-div{
   margin-top: 5%;
   background-color: #588ccd;
   font-size: 20pt;
+  color: #4d4d4d;
+  padding: 5% 0 5% 0;
 }
 
 #answer-section {
   font-size: 14pt;
   margin-top: 5%;
-  background-color: #eec587;
+  background-color: #cd5f42;
+  color: #4d4d4d;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+}
+
+#announce {
+  display: none;
 }
 
 ol {
