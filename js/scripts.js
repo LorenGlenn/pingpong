@@ -1,3 +1,4 @@
+//Begin business logic
 var pingPong = function(userNumber) {
   var countToArray = [];
   if (userNumber && userNumber > 0) {
@@ -15,12 +16,10 @@ var pingPong = function(userNumber) {
   } else {
     alert('please enter a positive number!');
   }
-
   var answerString = countToArray.join(", ");
   return answerString;
 };
-
-
+//begin front end logic
 $(document).ready(function(){
   $('form#ping-pong').submit(function(event){
     var userNumber = parseInt($('#user-input').val());
