@@ -24,17 +24,29 @@ $(document).ready(function(){
   $('form#ping-pong').submit(function(event){
     var userNumber = parseInt($('#user-input').val());
     var result = pingPong(userNumber);
-    answerAnimation();
+    animation("#answer-section", "#announce", "60%");
     $('#answer').text(result);
-    // $('#answer-section').show();
     event.preventDefault();
   });
 
-  var answerAnimation = function() {
-    $("#answer-section").animate({
-      height: '60%',
+  $('button#start').click(function(){
+    animation("#header", "#header-text", "20%");
+    $('#landing-text').hide();
+    $('#landing').animate({
+      height: '10px',
+      width: '10px'
+    })
+  });
+
+  $('button#next').click(function(){
+    animation("#input-div", "#form-div", "20%");
+  });
+
+  var animation = function(div, text, height) {
+    $(div).animate({
+      height: height,
       width: '100%'
     });
-    $('#announce').show();
+    $(text).show();
   }
 });

@@ -9,24 +9,34 @@
     <title>Ping-Pong</title>
   </head>
   <body>
+    <div class="well" id="landing">
+      <div id="landing-text">
+        <h2>Get started with the ping pong game!</h2>
+        <button type="button" id="start" class="btn btn-info">Start</button>
+      </div>
+    </div>
     <div class="well" id="header">
       <div id="header-text">
-        <h1>Enter a number for the PingPong game!</h1>
-        <h3>Rules:</h3>
+        <h1>Rules:</h1>
         <ol>
+          <li>Enter a positive integer and press submit.</li>
           <li>Every multiple of 3 will be replaced with ping.</li>
           <li>Every multiple of 5 will be replaced with pong.</li>
           <li>Every multiple of 15 will be replaced with pingpong.</li>
         </ol>
+        <p>When you're ready to get started, hit next!</p>
+        <button type="button" id="next" class="btn btn-info">Next</button>
       </div>
     </div>
-    <form id="ping-pong">
-      <div class="form-group well" id="form-div">
-        <label for="user-input">Insert a number to count to:</label>
-        <input type="text" name="user-input" id="user-input">
-        <button type="submit" id="submit" class="btn btn-info">Submit</button>
-      </div>
-    </form>
+    <div class="well" id="input-div">
+      <form id="ping-pong">
+        <div class="form-group" id="form-div">
+          <label for="user-input">Insert a number to count to:</label>
+          <input type="text" name="user-input" id="user-input">
+          <button type="submit" id="submit" class="btn btn-info">Submit</button>
+        </div>
+      </form>
+    </div>
     <div>
       <div id="answer-section" class="well">
         <h3 id="announce">Here is your ping ponged number: </h3>
