@@ -29,11 +29,11 @@ _This application takes a user entered number and displays all the numbers count
 5. It can remove all multiples of 3 and replace them with ping.
   * Example Input: 3
   * Example Output: 1, 2, ping
-  
+
 ## Setup/Installation Requirements
 
 * _Open the index.html file in any browser_
-* _Or go to https://lorenglenn.github.io/pingpong/ _
+* Or go to https://lorenglenn.github.io/pingpong/
 
 ## Known Bugs
 
